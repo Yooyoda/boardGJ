@@ -9,9 +9,9 @@
 <body>
 	<form id="frm" action="${pageContext.request.contextPath }/login" method="post">
 		<label for="userId" class="sr-only">Id</label> 
-		<input type="text" id="userId" name="userId" value="brown"> <br>
+		<input type="text" id="userId" name="userId" value="sally"> <br>
 		 <label for="inputPassword" class="sr-only">Password</label>
-		<input type="password" id="pass" name="pass" value="brown1234"><br>
+		<input type="password" id="pass" name="pass" value="sally1234"><br>
 		<input type="submit" class="btn btn-lg btn-primary btn-block" id="btn" name="btn" value="SIGN UP">
 	</form>
 </body>
