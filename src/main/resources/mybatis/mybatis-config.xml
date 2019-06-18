@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
- <properties resource = "kr/or/ddit/config/mybatis/db.properties"/>
+ <properties resource = "mybatis/db.properties"/>
 	<typeAliases>
 		<typeAlias type="aa.user.model.UserVO" alias="userVO"/>
 		<typeAlias type="aa.board11.model.BoardVO" alias="boardVO"/>
